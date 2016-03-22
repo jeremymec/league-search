@@ -1,0 +1,16 @@
+@keyframes search_move {
+    from {top:50% ;}
+    to {top:10%}
+}
+
+input{
+    height: 20px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    animation-name: search_move;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
